@@ -6,6 +6,7 @@ Somemoney 사이트의 기사를 KobertSum모델로 요약한 결과를 제공�
 <hr>
 
 ### Expo-cli를 이용하여 개발하였으며, 시뮬레이션을 위해서는 Node.js와 Expo-cli 설치 필요
+
 <hr>
 
 #### Expo 설치 순서
@@ -19,11 +20,14 @@ npm install -g react-native-cli
 ```
 npm install -g expo-cli
 ```
+<hr>
 
 #### Expo가 설치되었다면 시뮬레이션 환경 설정 필요
 ```
 Android Studio를 이용하거나 Expo 어플 이용하여 스마트폰에서 직접 시뮬레이션 가능
 ```
+
+<hr>
 
 #### App.js
 ```
