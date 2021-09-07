@@ -48,7 +48,10 @@ def load(url):
             else: newsList.append(news)
     
     for e in newsList:
-        sumList.append(summarize(e))
+        if e is "":
+            sumList.append("요약을 제공하지 못하는 기사입니다.")
+        else:
+            sumList.append(summarize(e))
 
     img = driver.find_elements_by_css_selector('div.list_img_box > a > img')
     for e in img: 
